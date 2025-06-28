@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #6B9FBF;
+    --color2: #F2F2F2;
+    --color3: #A6A6A6;
+    --color4: #595959; 
+    --color5: #0D0D0D;
+
+    --font1: arial, verdana, helvetica, Sans-serif;
+    --font2: cursive, Sans-serif;
+}
+
+body{
+    font-family: var(--font1);
+}
