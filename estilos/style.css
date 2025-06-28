@@ -13,4 +13,17 @@
 
 body{
     font-family: var(--font1);
+
+}
+
+main{
+    background-color: var(--color2);
+}
+
+div#image{
+
+}
+
+div#form{   
+
 }
