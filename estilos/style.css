@@ -39,6 +39,9 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#image{
@@ -47,4 +50,8 @@ section#login > div#image{
     height: 200px;
     width: 250px;
     border-radius: 15px 15px 0 0;
+}
+
+section#login > div#form {
+    text-align: justify;
 }
